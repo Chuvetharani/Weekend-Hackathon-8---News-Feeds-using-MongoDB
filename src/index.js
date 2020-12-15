@@ -5,7 +5,6 @@ const port = 8080
 
 const onePageArticleCount = 10
 
-
 // Parse JSON bodies (as sent by API clients)
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
